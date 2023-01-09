@@ -1,2 +1,12 @@
+.holder{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: repeat(2,200px);
+    background-color: yellow;
+}
 
-/* Your CSS Code here. */
+.grid-item{
+    background-color: blueviolet;
+    width: 150px;
+    height: 150px;
+}
